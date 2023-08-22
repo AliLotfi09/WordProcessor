@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("Shabnam-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+    user-select: none;
+    font-family: shabnam;
+    color: rgb(73, 73, 73);
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: right right;
+}
+
+.container {
+    text-align: center;
+}
+
+iframe {
+    margin-right: 12vw;
+    background-color: #fff;
+    font-weight: 300;
+    border: 1px solid #0000;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px #ccc;
+    font-family: shabnam !important;
+    padding: 8px;
+}
+
+button {
+    margin: 3px;
+}
+
+.clipboard {
+    width: 1000px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(4, 145, 34);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
